@@ -34,6 +34,12 @@ TODO: Add long description of the pod here.
   
   s.dependency 'Texture'
 
+  s.library = 'c++'
+  s.pod_target_xcconfig = {
+    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
+    'CLANG_CXX_LIBRARY' => 'libc++'
+  }
+
   # s.resource_bundles = {
   #   'TextureSimply' => ['TextureSimply/Assets/*.png']
   # }
