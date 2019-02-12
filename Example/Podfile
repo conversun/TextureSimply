@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'TextureSimply_Example' do
   pod 'TextureSimply', :path => '../'
+  pod 'MJRefresh'
+  pod 'Moya'
 
   target 'TextureSimply_Tests' do
     inherit! :search_paths
