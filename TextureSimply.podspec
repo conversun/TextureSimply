@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TextureSimply'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of TextureSimply.'
 
 # This description is used to generate tags and improve search results.
@@ -27,24 +27,10 @@ TODO: Add long description of the pod here.
   s.author           = { 'ConverSun' => 'conversun@qq.com' }
   s.source           = { :git => 'https://github.com/didez/TextureSimply.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
   s.swift_version = '4.2'
   s.source_files = 'TextureSimply/Classes/**/*'
   
-  s.dependency 'Texture'
+  s.dependency 'Texture', '2.6'
 
-  s.library = 'c++'
-  s.pod_target_xcconfig = {
-    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
-    'CLANG_CXX_LIBRARY' => 'libc++'
-  }
-
-  # s.resource_bundles = {
-  #   'TextureSimply' => ['TextureSimply/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
