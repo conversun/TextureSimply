@@ -22,15 +22,15 @@ PODS:
     - PINCache (= 3.0.1-beta.6)
     - PINRemoteImage/Core
   - Result (4.1.0)
-  - Texture (2.7):
-    - Texture/PINRemoteImage (= 2.7)
-  - Texture/Core (2.7)
-  - Texture/PINRemoteImage (2.7):
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
     - PINRemoteImage/iOS (= 3.0.0-beta.13)
     - PINRemoteImage/PINCache
     - Texture/Core
-  - TextureSimply (0.1.0):
-    - Texture
+  - TextureSimply (0.1.2):
+    - Texture (= 2.6)
 
 DEPENDENCIES:
   - MJRefresh
@@ -60,9 +60,9 @@ SPEC CHECKSUMS:
   PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
-  Texture: 9d7e38965cf22ccd7cd9c249dd78b3f14e70ab6c
-  TextureSimply: 208710caa307e0e34187e4509fff35a083884edf
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
+  TextureSimply: 7517f0b987344fa56ab64ba47dea8cc7f8b08626
 
-PODFILE CHECKSUM: cc7e3648c75a4a74426c8a96755a4464df679bc8
+PODFILE CHECKSUM: 780f54b4f7ced2b5a8d27e621b81b5d04b73830e
 
 COCOAPODS: 1.5.3
